@@ -1,0 +1,59 @@
+.item {
+    background: #f7f4f1;
+    margin: 2% 25%;
+    padding: 20px 25px;
+    border-radius: 15px;
+    display: flex;
+}
+
+.item .text {
+    width: 85%;
+    line-break: anywhere;
+}
+
+.item .icon {
+    width: 15%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.edit_btn {
+    color: #05a005;
+    cursor: pointer;
+}
+
+.delete_btn {
+    color: #cc0404;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 299px) {
+    .item .text {
+        width: 60%;
+        line-break: anywhere;
+    }
+    .item .icon {
+        width: 40%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 993px) {
+    .item .text {
+        width: 85%;
+        line-break: anywhere;
+    }
+    .item .icon {
+        width: 15%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
